@@ -1,20 +1,23 @@
 {
-  "name": "wanderlust",
-  "private": true,
+  "name": "major-project",
+  "version": "1.0.0",
+  "main": "app.js",
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "devDependencies": {
-    "prettier": "^3.5.3",
-    "turbo": "^2.5.3",
-    "typescript": "5.8.2"
-  },
-  "packageManager": "pnpm@9.0.0",
-  "engines": {
-    "node": ">=18"
+  "keywords": [],
+  "author": "Sk Samim Ali",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.13.2"
   }
 }
