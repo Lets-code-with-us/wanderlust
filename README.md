@@ -1,84 +1,33 @@
-# Turborepo starter
+## Wander Lust <br>
+<h2>Description</h2> 
+Wander Lust is a full-stack  web application built using Node.js, Express, MongoDB, EJS, HTML, CSS, and JavaScript. The project allows users to browse and reserve listings, with functionalities for user authentication, listing creation, editing, and deleting. The app also includes a checkout page where users can manage the number of guests and calculate the total price based on their stay.
 
-This Turborepo starter is maintained by the Turborepo core team.
+<h2>Features</h2>
+User Authentication: Users can register, login, and log out securely.
 
-## Using this example
+<h3>Listings:</h3> Users can view, create, edit, and delete their own listings.
 
-Run the following command:
+<h3>Checkout Page:</h3> After reserving a listing, users can edit the number of guests and calculate the total price based on the number of guests, nightly price, and length of stay.
 
-```sh
-npx create-turbo@latest
-```
+<h3>Responsive Design:</h3> The application is designed to work across different screen sizes, optimized for both desktop and mobile views.
 
-## What's inside?
+<h2>Technologies Used</h2>
+<h3>Node.js:</h3> JavaScript runtime for the server-side logic.
 
-This Turborepo includes the following packages/apps:
+<h3>Express:</h3> Web framework for Node.js to handle routing and HTTP requests.
 
-### Apps and Packages
+<h3>MongoDB:</h3> NoSQL database to store user data, listings, and reservations.
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+<h3>EJS:</h3> Templating engine to dynamically render HTML pages.
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+<h3>HTML & CSS:</h3> Used to build and style the front-end of the application.
 
-### Utilities
+<h3>JavaScript:</h3> Client-side scripting to enhance interactivity and functionality.
 
-This Turborepo has some additional tools already setup for you:
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+<h2>Future Enhancements</h2>
+<h3>Search Functionality:</h3> Allow users to search listings based on location, price, and availability.
 
-### Build
+<h3>Ratings and Reviews:</h3> Implement a system where users can rate and review listings.
 
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
-
-Turborepo can use a technique known as [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turborepo.com/docs/crafting-your-repository/running-tasks)
-- [Caching](https://turborepo.com/docs/crafting-your-repository/caching)
-- [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching)
-- [Filtering](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters)
-- [Configuration Options](https://turborepo.com/docs/reference/configuration)
-- [CLI Usage](https://turborepo.com/docs/reference/command-line-reference)
+<h3>Admin Panel:</h3> Add a simple admin panel for managing all user listings.
